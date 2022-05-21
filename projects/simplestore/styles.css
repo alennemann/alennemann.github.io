@@ -1,0 +1,46 @@
+ body {
+     background-color: rgb(219, 255, 219);
+     color: darkgreen;
+     margin: 50px;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ #header {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+ }
+ #inventory {
+     border: solid grey 2px;
+     width: 450px;
+     padding: 25px;
+     margin-right: 25px;
+     margin-bottom: 25px;
+ }
+ #inputs {
+     background-color: rgb(189, 255, 189);
+     width: 450px;
+     padding: 25px;
+     border: solid grey 2px;
+ }
+ #buttons {
+     padding-top: 15px;
+ }
+ button {
+     background-color: rgb(40, 75, 40);
+     color: white;
+     padding: 12px;
+ }
+ caption {
+     color: rgb(0, 0, 0);
+     font-size: 120%;
+ }
+ #total {
+     font-size: 150%;
+     border: solid grey 2px;
+     padding: 25px;
+     width: 450px;
+ }
+ #textarea {
+     border: solid grey 2px;
+     padding: 25px;
+     width: 450px;
+ }
