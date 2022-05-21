@@ -1,0 +1,81 @@
+/* Fonts */
+@font-face {
+    font-family: Lemonmilk;
+    src: url(LEMONMILK-Regular.otf);
+}
+@font-face {
+    font-family: LemonmilkLight;
+    src: url(LEMONMILK-LIGHT.otf);
+}
+@font-face {
+    font-family: LemonmilkMedium;
+    src: url(Lemonmilk-Medium.otf);
+}
+@font-face {
+    font-family: Mollen;
+    src: url('Mollen\ Personal\ Use-Regular.otf');
+}
+
+/*Body */
+body {
+    background-color: #F0F2F0;
+}
+
+/* Banner */
+#banner {
+    background: linear-gradient(to bottom right, #c2f4e6, #f8c9ac);
+    padding-bottom: 45px;
+    margin-top: 0px;
+    font-family: 'Lemonmilk';
+    text-align: center;
+    position: relative;
+}
+#welcome {
+    font-size: 14vw;
+}
+#welcome2 {
+    font-size: 2vw;
+    position: absolute;
+    left: 60%;
+    top: 75%;
+}
+
+/* Bottom text and main links */
+#blurb {
+    background-color: #F0F2F0;
+    margin: 0px;
+    height: 35vh;
+}
+#blurbtext {
+    text-align: center;
+    font-size: 5vh;
+    font-family: Mollen;
+    padding: 7vh;
+}
+#biglinks {
+    text-align: center;
+    padding: 5px;
+    font-family: LemonmilkLight;
+    font-size: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+#biglinks > div {
+    padding: 20px;
+    border: 4px #7ea298 solid;
+    border-radius: 15px;
+    background-color: #ffede1;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #919491;
+}
+a:active {
+    color: black;
+}
