@@ -1,3 +1,2 @@
 # alennemann.github.io
-Final Project for my class at CSM.
-Alinando Lennemannn
+Final Project for CSM by Alinando Lennemann
